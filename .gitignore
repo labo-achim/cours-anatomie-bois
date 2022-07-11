@@ -86,6 +86,9 @@ acs-*.bib
 *.t[1-9][0-9]
 *.tfm
 
+*.mtc*
+*.maf
+
 #(r)(e)ledmac/(r)(e)ledpar
 *.end
 *.?end
