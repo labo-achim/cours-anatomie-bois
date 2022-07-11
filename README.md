@@ -1,1 +1,1 @@
-# Anatomie du bois – GBO-4000/SBO-7020
+# Anatomie du bois – GBO-4000 / GBO-7000
