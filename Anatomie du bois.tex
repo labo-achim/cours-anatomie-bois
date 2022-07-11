@@ -1,0 +1,43 @@
+\documentclass{aalesson}		% Classe spéciale créée pour les cours d'A. Achim
+
+\usepackage{textcomp}			% jeux de symboles spéciaux
+\usepackage{subfig}				% gestion des figures multiples
+\usepackage{numprint}			% pour écrire les nombres proprement
+\usepackage{sistyle}			% jeux de macros pour les unités SI
+\usepackage{multirow,multicol}	% pour des tableaux avancées
+\usepackage{rotating}			% rotation
+\usepackage{enumitem}			% liste à puce avancées
+\usepackage{tikz-qtree} 		% package pour dessiner des arbres en LaTeX
+\usetikzlibrary{trees}
+
+\title{Anatomie du bois -- GBO-4000/SBO-7020}
+\author{Alexis Achim \\ Alain Cloutier}
+\date{Automne 2022}
+\info{Notes de cours}
+\logo{img/Ulaval}
+
+\newcommand{\flip}[1]{\rotatebox{90}{#1}}
+
+\begin{document}
+
+\maketitle
+
+\dominitoc
+\faketableofcontents
+
+\input{0.avant_propos}
+\input{1.notions_generales}
+\input{2.desc_macro}
+\input{3.desc_micro_resineux}
+\input{4.desc_micro_feuillus}
+\input{5.croissance}
+\input{6.paroi_cellulaire}
+\input{7.variabilite}
+\input{8.qualite}
+\input{9.irregularite}
+%\input{10.systeme_forestier}
+
+\addtocounter{chapter}{1}
+\bibliography{sample}
+
+\end{document}
